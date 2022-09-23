@@ -19,13 +19,36 @@
         float: right;
         width: 70%;
     }
+    #formulario p {
+        margin-bottom: 50px;
+    }
+    .back {
+        width: 46vw;
+    }
+    input {
+        width: 40vw;
+    }
+    .backlink {
+        width: 46vw;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    .linkback {
+        width: 46vw;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
 }
 @media screen and (min-width:992px) {
     body {
         background-image: linear-gradient(to top, var(--cor01), var(--cor02));
     }
     #login {
-        width: 80vw;
+        width: 950px;
     }
     #imagem {
         float: left;
@@ -35,5 +58,28 @@
     #formulario {
         float: right;
         width: 70%;
+    }
+    #formulario p {
+        margin-bottom: 50px;
+    }
+    .back {
+        width: 32vw;
+    }
+    input {
+        width: 28vw;
+    }
+    .backlink {
+        width: 32vw;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    .linkback {
+        width: 32vw;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.2em;
+        font-weight: bold;
     }
 }

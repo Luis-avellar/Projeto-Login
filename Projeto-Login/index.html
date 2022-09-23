@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Login</title>
 </head>
 <body>
@@ -17,6 +18,18 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja Bem vindo, novamente! Faça-o login para acessar a sua conta e poder fazer as configurações no seu ambiente de trabalho.</p>
+                <form action="cadastro.php" method="post" required autocomplete="on">
+                    <div class="back">
+                        <label for="ilogin"><span class="material-symbols-outlined">account_circle</span></label>
+                        <input type="text" name="usuario" id="ilogin" placeholder=" Username">
+                    </div>
+                    <div class="back">
+                        <label for="ipass"><span class="material-symbols-outlined">key</span></label>
+                        <input type="password" name="senha" id="ipass" placeholder=" Password">
+                    </div>
+                </form>
+                <div class="backlink"><a href="#">Entrar</a></div> 
+                <div class="linkback"><a href="#">Esqueci a senha</a></div>
             </div>
         </section>
     </main>

@@ -17,6 +17,7 @@ body, html {
 main {
     position: relative;
     height: 100vh;
+    width: 100vw;
 }
 #imagem {
     display: block;
@@ -30,8 +31,8 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 200px;
-    height: 500px;
+    width: 250px;
+    height: 530px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
     background-color: white;
@@ -39,7 +40,66 @@ main {
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
+.back {
+    position: relative;
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: var(--cor02);
+    margin: auto;
+    margin-bottom: 5px;
+}
+span {
+    position: absolute;
+    top: 25%;
+    left: 1%;
+    color: white;
+}
 #formulario {
     display: block;
     padding: 10px;
+}
+#formulario p {
+    margin-bottom: 5px;
+}
+#formulario h1 {
+    text-align: center;
+}
+input {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-43%, -50%);
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: aqua;
+}
+.backlink {
+    height: 30px;
+    width: 230px;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: var(--cor01);
+}
+.backlink a {
+    text-decoration: none;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.493);
+    color: white;
+}
+.linkback {
+    height: 30px;
+    width: 230px;
+    margin: auto;
+    border-radius: 3px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid var(--cor01)
+}
+.linkback a {
+    text-decoration: none;
+    color: var(--cor01)
 }
